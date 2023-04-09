@@ -1,14 +1,14 @@
-:root{
-  --color-primary : rgb(67, 133, 255) ;
-  --color-primary-light : rgb(213, 213, 255) ;
-  --color-dark : rgb(22, 22, 22) ;
-  }
-
-.container-fluid{
-  padding : 2rem ; 
+:root {
+  --color-primary: rgb(67, 133, 255);
+  --color-primary-light: rgb(213, 213, 255);
+  --color-dark: rgb(22, 22, 22);
 }
 
-.container-center{
+.container-fluid {
+  padding: 2rem;
+}
+
+.container-center {
   max-width: 600px;
   padding: 2rem;
   margin: auto;
@@ -93,19 +93,36 @@
   padding-bottom: 3rem;
 }
 
-button, .btn{
+.clr-primary {
+  color: var(--color-primary);
+}
+
+.clr-dark {
+  color: var(--color-dark);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+}
+
+button,
+.btn {
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: 1px solid var(--color-primary) ;
+  border: 1px solid var(--color-primary);
   cursor: pointer;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: var(--color-primary);
   color: white;
 }
 
-.btn-primary-outline{
+.btn-primary-outline {
   border: 1px solid var(--color-primary);
   color: var(--color-primary);
   background-color: white;
